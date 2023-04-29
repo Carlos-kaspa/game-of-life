@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: auto;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: auto;
+}
+
+#game-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#game-grid {
+  background: black;
+  width: 400;
+  height: 400;
+  margin: auto;
+}
+
+#game-menu{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
